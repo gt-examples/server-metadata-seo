@@ -1,0 +1,92 @@
+{
+  "0c7967a489968ea9": "SEO con metadatos en el servidor",
+  "2352297103ab3af4": {
+    "c": [
+      {
+        "c": "3. Enlaces de idioma alternativo",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "Los metadatos incluyen enlaces alternativos para cada idioma compatible. Los motores de búsqueda utilizan estas etiquetas hreflang para mostrar la versión en el idioma correcto en los resultados de búsqueda, evitando penalizaciones por contenido duplicado.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "3fdd0e8244abfbea": [
+    {
+      "c": "Metadatos en vivo de esta página",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Cambia el idioma con el selector de arriba para ver cómo cambian los metadatos. Inspecciona el código fuente de la página o usa la vista previa a continuación.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "53b91a6c8504f5f9": {
+    "c": "Metadatos de la página actual",
+    "i": 1,
+    "t": "span"
+  },
+  "a12715052914ab49": {
+    "c": "Cómo funciona",
+    "i": 1,
+    "t": "h3"
+  },
+  "a360648f4b57fc47": "Aprende a usar getGT dentro de generateMetadata para crear títulos de página, descripciones y etiquetas Open Graph traducidos para SEO multilingüe.",
+  "c656b1b70f94bf38": {
+    "c": [
+      {
+        "c": "1. Traducción del lado del servidor en generateMetadata",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "La función generateMetadata recibe el locale desde los parámetros de ruta. Llama a getGT para obtener una función de traducción y la utiliza para traducir el título y la descripción de la página antes de devolver el objeto de metadatos.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "d2805811eb07276a": [
+    {
+      "c": "Metadatos traducidos para SEO multilingüe",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Esta demo muestra cómo usar getGT dentro de generateMetadata de Next.js para generar títulos de página, descripciones y etiquetas Open Graph traducidos. Cada idioma obtiene sus propios metadatos, mejorando la visibilidad en motores de búsqueda en distintos idiomas.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "da44de684bf4946f": {
+    "c": [
+      {
+        "c": "2. Open Graph y tarjetas de Twitter",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "Las cadenas traducidas se pasan a los campos openGraph y twitter del objeto de metadatos. Cuando se comparte una página en redes sociales, la vista previa muestra el texto en el idioma correcto.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "dfa161d16d996aca": {
+    "c": "Ejemplo de código",
+    "i": 1,
+    "t": "h3"
+  },
+  "e4bc4b395e0b3ef6": "Demostración de SEO con metadatos en el servidor | Traducción general"
+}
