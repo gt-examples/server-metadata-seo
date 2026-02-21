@@ -8,6 +8,25 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      <div className="bg-neutral-900 border-b border-neutral-800">
+        <div className="max-w-3xl mx-auto px-6 py-2">
+          <T>
+            <p className="text-xs text-neutral-500 text-center">
+              This is an example app demonstrating{" "}
+              <a
+                href="https://generaltranslation.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-400"
+              >
+                General Translation
+              </a>{" "}
+              features. Not a real product.
+            </p>
+          </T>
+        </div>
+      </div>
+
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -30,7 +49,7 @@ export default async function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-neutral-200 transition-colors"
-              aria-label="View on GitHub"
+              aria-label={gt("View on GitHub")}
             >
               <svg
                 width="20"
@@ -53,7 +72,24 @@ export default async function Home() {
               Translated metadata for multilingual SEO
             </h2>
             <p className="text-base text-neutral-400 max-w-xl leading-relaxed">
-              This demo shows how to use getGT inside Next.js generateMetadata
+              This demo shows how to use{" "}
+              <a
+                href="https://generaltranslation.com/en-US/docs/next/api/server/getGT"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-300"
+              >
+                getGT
+              </a>{" "}
+              inside Next.js{" "}
+              <a
+                href="https://nextjs.org/docs/app/api-reference/functions/generate-metadata"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-300"
+              >
+                generateMetadata
+              </a>{" "}
               to produce translated page titles, descriptions, and Open Graph
               tags. Each locale gets its own metadata, improving search engine
               visibility across languages.
@@ -101,9 +137,17 @@ export default async function Home() {
                 </h4>
                 <p className="text-sm text-neutral-400 leading-relaxed">
                   The metadata includes alternate links for each supported
-                  locale. Search engines use these hreflang tags to serve the
-                  right language version in search results, avoiding duplicate
-                  content penalties.
+                  locale. Search engines use these{" "}
+                  <a
+                    href="https://developers.google.com/search/docs/specialty/international/localized-versions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-neutral-300"
+                  >
+                    hreflang tags
+                  </a>{" "}
+                  to serve the right language version in search results,
+                  avoiding duplicate content penalties.
                 </p>
               </div>
             </T>
@@ -161,6 +205,46 @@ export async function generateMetadata({
           </div>
         </section>
       </main>
+
+      <footer className="border-t border-neutral-800 bg-neutral-950">
+        <div className="max-w-3xl mx-auto px-6 py-8">
+          <T>
+            <p className="text-sm text-neutral-500 mb-3">
+              Learn more about multilingual SEO best practices in the{" "}
+              <a
+                href="https://generaltranslation.com/en-US/blog/multilingual-nextjs-seo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-400"
+              >
+                General Translation SEO guide
+              </a>
+              .
+            </p>
+            <p className="text-xs text-neutral-600">
+              Built with{" "}
+              <a
+                href="https://generaltranslation.com/docs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-500"
+              >
+                General Translation
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://nextjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-neutral-500"
+              >
+                Next.js
+              </a>
+              .
+            </p>
+          </T>
+        </div>
+      </footer>
     </div>
   );
 }

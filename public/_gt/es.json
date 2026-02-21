@@ -1,21 +1,6 @@
 {
-  "0c7967a489968ea9": "SEO con metadatos en el servidor",
-  "2352297103ab3af4": {
-    "c": [
-      {
-        "c": "3. Enlaces de idioma alternativo",
-        "i": 2,
-        "t": "h4"
-      },
-      {
-        "c": "Los metadatos incluyen enlaces alternativos para cada idioma compatible. Los motores de búsqueda utilizan estas etiquetas hreflang para mostrar la versión en el idioma correcto en los resultados de búsqueda, evitando penalizaciones por contenido duplicado.",
-        "i": 3,
-        "t": "p"
-      }
-    ],
-    "i": 1,
-    "t": "div"
-  },
+  "0c730b7f189776b6": "Ver en GitHub",
+  "0c7967a489968ea9": "Metadatos del servidor para SEO",
   "3fdd0e8244abfbea": [
     {
       "c": "Metadatos en vivo de esta página",
@@ -38,7 +23,104 @@
     "i": 1,
     "t": "h3"
   },
-  "a360648f4b57fc47": "Aprende a usar getGT dentro de generateMetadata para crear títulos de página, descripciones y etiquetas Open Graph traducidos para SEO multilingüe.",
+  "a360648f4b57fc47": "Aprende a usar getGT en generateMetadata para crear títulos de página, descripciones y etiquetas Open Graph traducidos para SEO multilingüe.",
+  "a39f78627a7a28f2": {
+    "c": [
+      {
+        "c": "3. Enlaces de idioma alternativo",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": [
+          "Los metadatos incluyen enlaces alternativos para cada idioma compatible. Los motores de búsqueda utilizan estas ",
+          {
+            "c": "etiquetas hreflang",
+            "i": 4,
+            "t": "a"
+          },
+          " para mostrar la versión en el idioma correcto en los resultados de búsqueda, evitando penalizaciones por contenido duplicado."
+        ],
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "aedcbff96d1a7925": [
+    {
+      "c": [
+        "Obtén más información sobre las mejores prácticas de SEO multilingüe en la ",
+        {
+          "c": "guía de SEO de General Translation",
+          "i": 2,
+          "t": "a"
+        },
+        "."
+      ],
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        "Desarrollado con ",
+        {
+          "c": "General Translation",
+          "i": 4,
+          "t": "a"
+        },
+        " y ",
+        {
+          "c": "Next.js",
+          "i": 5,
+          "t": "a"
+        },
+        "."
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "ba5b0eb6f1f26d2a": [
+    {
+      "c": "Metadatos traducidos para SEO multilingüe",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        "Esta demo muestra cómo usar ",
+        {
+          "c": "getGT",
+          "i": 3,
+          "t": "a"
+        },
+        " dentro de ",
+        {
+          "c": "generateMetadata",
+          "i": 4,
+          "t": "a"
+        },
+        " de Next.js para generar títulos de página, descripciones y etiquetas Open Graph traducidos. Cada idioma obtiene sus propios metadatos, mejorando la visibilidad en motores de búsqueda en distintos idiomas."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "c1ba40ffb187fffd": {
+    "c": [
+      "Esta es una aplicación de ejemplo que demuestra las funciones de ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      ". No es un producto real."
+    ],
+    "i": 1,
+    "t": "p"
+  },
   "c656b1b70f94bf38": {
     "c": [
       {
@@ -55,18 +137,6 @@
     "i": 1,
     "t": "div"
   },
-  "d2805811eb07276a": [
-    {
-      "c": "Metadatos traducidos para SEO multilingüe",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Esta demo muestra cómo usar getGT dentro de generateMetadata de Next.js para generar títulos de página, descripciones y etiquetas Open Graph traducidos. Cada idioma obtiene sus propios metadatos, mejorando la visibilidad en motores de búsqueda en distintos idiomas.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
   "da44de684bf4946f": {
     "c": [
       {
@@ -88,5 +158,5 @@
     "i": 1,
     "t": "h3"
   },
-  "e4bc4b395e0b3ef6": "Demostración de SEO con metadatos en el servidor | Traducción general"
+  "e4bc4b395e0b3ef6": "Demostración de metadatos del servidor para SEO | Traducción general"
 }

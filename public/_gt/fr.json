@@ -1,21 +1,6 @@
 {
+  "0c730b7f189776b6": "Voir sur GitHub",
   "0c7967a489968ea9": "SEO des métadonnées côté serveur",
-  "2352297103ab3af4": {
-    "c": [
-      {
-        "c": "3. Liens en langues alternatives",
-        "i": 2,
-        "t": "h4"
-      },
-      {
-        "c": "Les métadonnées incluent des liens alternatifs pour chaque locale prise en charge. Les moteurs de recherche utilisent ces balises hreflang pour afficher la bonne version linguistique dans les résultats de recherche, évitant ainsi les pénalités pour contenu dupliqué.",
-        "i": 3,
-        "t": "p"
-      }
-    ],
-    "i": 1,
-    "t": "div"
-  },
   "3fdd0e8244abfbea": [
     {
       "c": "Métadonnées en direct pour cette page",
@@ -23,7 +8,7 @@
       "t": "h3"
     },
     {
-      "c": "Changez de langue via le sélecteur ci-dessus pour voir les métadonnées se mettre à jour. Inspectez le code source de la page ou utilisez l'aperçu ci-dessous.",
+      "c": "Changez de langue à l'aide du sélecteur ci-dessus pour voir les métadonnées se mettre à jour. Inspectez le code source de la page ou utilisez l'aperçu ci-dessous.",
       "i": 2,
       "t": "p"
     }
@@ -38,7 +23,104 @@
     "i": 1,
     "t": "h3"
   },
-  "a360648f4b57fc47": "Découvrez comment utiliser getGT avec generateMetadata pour créer des titres de page, des descriptions et des balises Open Graph localisés pour le référencement multilingue.",
+  "a360648f4b57fc47": "Découvrez comment utiliser getGT dans generateMetadata pour générer des titres de page, des descriptions et des balises Open Graph traduits pour un SEO multilingue.",
+  "a39f78627a7a28f2": {
+    "c": [
+      {
+        "c": "3. Liens en langues alternatives",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": [
+          "Les métadonnées incluent des liens alternatifs pour chaque locale prise en charge. Les moteurs de recherche utilisent ces ",
+          {
+            "c": "balises hreflang",
+            "i": 4,
+            "t": "a"
+          },
+          " pour afficher la bonne version linguistique dans les résultats de recherche, évitant ainsi les pénalités pour contenu dupliqué."
+        ],
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "aedcbff96d1a7925": [
+    {
+      "c": [
+        "En savoir plus sur les bonnes pratiques SEO multilingue dans le ",
+        {
+          "c": "guide SEO General Translation",
+          "i": 2,
+          "t": "a"
+        },
+        "."
+      ],
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        "Conçu avec ",
+        {
+          "c": "General Translation",
+          "i": 4,
+          "t": "a"
+        },
+        " et ",
+        {
+          "c": "Next.js",
+          "i": 5,
+          "t": "a"
+        },
+        "."
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "ba5b0eb6f1f26d2a": [
+    {
+      "c": "Métadonnées traduites pour le référencement multilingue",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        "Cette démo montre comment utiliser ",
+        {
+          "c": "getGT",
+          "i": 3,
+          "t": "a"
+        },
+        " dans ",
+        {
+          "c": "generateMetadata",
+          "i": 4,
+          "t": "a"
+        },
+        " de Next.js pour générer des titres de page, des descriptions et des balises Open Graph traduits. Chaque locale dispose de ses propres métadonnées, ce qui améliore la visibilité dans les moteurs de recherche pour toutes les langues."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "c1ba40ffb187fffd": {
+    "c": [
+      "Ceci est un exemple d'application illustrant les fonctionnalités de ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      ". Pas un vrai produit."
+    ],
+    "i": 1,
+    "t": "p"
+  },
   "c656b1b70f94bf38": {
     "c": [
       {
@@ -55,27 +137,15 @@
     "i": 1,
     "t": "div"
   },
-  "d2805811eb07276a": [
-    {
-      "c": "Métadonnées traduites pour le référencement multilingue",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": "Cette démo montre comment utiliser getGT dans generateMetadata de Next.js pour générer des titres de page, des descriptions et des balises Open Graph traduits. Chaque locale dispose de ses propres métadonnées, ce qui améliore la visibilité dans les moteurs de recherche pour toutes les langues.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
   "da44de684bf4946f": {
     "c": [
       {
-        "c": "2. Open Graph et Twitter cards",
+        "c": "2. Open Graph et cartes Twitter",
         "i": 2,
         "t": "h4"
       },
       {
-        "c": "Les chaînes traduites sont transmises aux champs openGraph et twitter de l'objet metadata. Lorsqu'une page est partagée sur les réseaux sociaux, l'aperçu affiche le texte dans la langue correcte.",
+        "c": "Les chaînes traduites sont transmises aux champs openGraph et twitter de l'objet metadata. Lorsqu'une page est partagée sur les réseaux sociaux, l'aperçu affiche le texte dans la langue appropriée.",
         "i": 3,
         "t": "p"
       }
@@ -88,5 +158,5 @@
     "i": 1,
     "t": "h3"
   },
-  "e4bc4b395e0b3ef6": "Démo SEO des métadonnées côté serveur | Traductions générales"
+  "e4bc4b395e0b3ef6": "Démo SEO avec métadonnées côté serveur | Traduction générale"
 }
